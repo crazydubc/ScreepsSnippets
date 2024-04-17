@@ -107,7 +107,6 @@ export function compactFlatMap<T, U>(array: T[], mapFn: (element: T) => U[]): U[
 					result.push(e)
 				}
 			}
-			result.push(...newElement)
 		} else if (newElement) {
 			result.push(newElement)
 		}
